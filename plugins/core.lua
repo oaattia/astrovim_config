@@ -20,6 +20,17 @@ return {
       return opts
     end,
   },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      filesystem = {
+        follow_current_file = { enabled = true },
+      },
+      buffers = {
+        follow_current_file = { enabled = true },
+      },
+    },
+  },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
