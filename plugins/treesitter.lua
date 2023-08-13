@@ -17,7 +17,6 @@ return {
       "toml",
       "rust",
       "groovy",
-      "jenkinsfile",
     })
   end,
 }
