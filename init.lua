@@ -64,7 +64,8 @@ return {
       "clangd",
       "lua_ls",
       "intelephense",
-      "vls"
+      "jdtls",
+      "vuels",
     },
   },
 

@@ -7,7 +7,7 @@ return {
   -- first key is the mode
   n = {
     ["<leader>,"] = {":e $HOME/.config/nvim/lua/user/init.lua<CR>"},
-    ["<leader>fg"] = {":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>"},
+    ["<leader>fg"] = {":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>", desc = "search words with filters"},
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
       function()

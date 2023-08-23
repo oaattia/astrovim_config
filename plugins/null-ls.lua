@@ -19,6 +19,7 @@ return {
       null_ls.builtins.formatting.goimports,
       null_ls.builtins.formatting.gofmt,
       null_ls.builtins.formatting.sqlformat,
+      null_ls.builtins.formatting.astyle,
     }
     return config -- return final config table
   end,
